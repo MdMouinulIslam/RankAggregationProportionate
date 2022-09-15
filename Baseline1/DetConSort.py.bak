@@ -1,0 +1,40 @@
+def DetConstSort(S,A,P,kmax):
+    counts = {}
+    minCounts = {}
+    for ai in A:
+        counts[ai] = 0
+        minCounts[ai] = 0
+    
+    rankedAttList = {}
+    rankedScoreList = {}
+    maxIndices = {}
+    lastEmpty = 0
+    k = 0
+    
+    while lastEmpty <= kmax:
+        k = k + 1
+        tempMinCounts = {}
+        for ai in A:
+            tempMinCounts[ai] = math.floor(k * P[ai])
+        changedMins = []
+        for ai in A:
+            if minCounts[ai ] < tempMinCounts[ai]:
+                changedMins.append((S[ai][counts[ai]],ai))
+        if len(changedMins) != 0 :
+            changedMins.sort(reverse=True)
+            #ordChangedMins = changedMins
+        for sai,ai in  changedMins:
+            rankedAttList[lastEmpty] = ai
+            
+            rankedScoreList[lastEmpty] = S[ai][counts[ai]]
+            maxIndices[lastEmpty] = k
+            start = lastEmpty
+            while start > 0 and maxIndices[start - 1] >= start and rankedScoreList[start-1] < rankedScoreList[start]:
+                swap(maxIndices,start - 1,start)
+                swap(rankedAttList,start - 1, start)
+                swap(rankedScoreList,start - 1, start)
+                start = start - 1
+            counts[ai] = counts[ai] + 1 
+            lastEmpty = lastEmpty + 1
+        minCounts = tempMinCounts
+    return (rankedAttList, rankedScoreList)
