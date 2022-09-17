@@ -1,6 +1,3 @@
-# RankAggregationProportionate
-ApproxMultiValuedIPF: ApproxMultiValuedIPF
-Baseline1: DetConsort algorithm
-Baseline2: FairIlp algorithm
-GrBinaryIPF: binary individual proportionate algorithm
-OptIPF: ILP implementaion of IPF
+How to generate the plots
+(1) Go to GrBinaryIPF folder and run Plot_GrBinaryIPF
+(2)
