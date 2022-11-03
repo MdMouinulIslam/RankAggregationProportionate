@@ -1,1 +1,5 @@
-Numpy, Sklearn, Gurobi, Networkx, matplotlib
+pip install numpy
+pip install Sklearn
+pip install Networkx
+Install Gurobi software in the pc, Obtain license file. https://www.gurobi.com/downloads/
+pip install Gurobi
