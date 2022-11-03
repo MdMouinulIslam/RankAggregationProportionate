@@ -31,15 +31,15 @@ Go to the folder named codes, change the line which contains the dataset path na
 
 Reproducing the figures:
 Go to subfolder graphs
-Figure 1 --> Run Fig_1a_plot.ipynb,  Fig_1b_plot.ipynb, Fig_1c_plot.ipynb
-Figure 2 --> Run Fig_2a_plot.ipynb,  Fig_2b_plot.ipynb, Fig_2c_plot.ipynb
-Figure 3 --> Run Fig_3a_plot.ipynb,  Fig_3b_plot.ipynb, Fig_3c_plot.ipynb
-Figure 4 --> Run Fig_4a_plot.ipynb,  Fig_4b_plot.ipynb, Fig_4c_plot.ipynb
-Figure 5 --> Run Fig_5a_code, Fig_5a_plot.ipynb,  Fig_5b_code, Fig_5b_plot.ipynb
-Figure 6 --> Run Fig_6a_plot.ipynb,  Fig_6b_plot.ipynb
-Figure 7 --> Run Fig_7a_plot.ipynb,  Fig_7b_plot.ipynb
-Figure 8 --> Run fig_8a_code.py, Fig_8a_plot.ipynb,  fig_8b_code.py, Fig_8b_plot.ipynb, fig_8c_code.py, Fig_8c_plot.ipynb, fig_8d_code.py, Fig_8d_plot.ipynb
-Figure 9 --> Run Fig_9a_plot.ipynb,  Fig_9b_plot.ipynb
+Figure 1 --> Run Fig_1a_plot.ipynb,  Fig_1b_plot.ipynb, Fig_1c_plot.ipynb <br />
+Figure 2 --> Run Fig_2a_plot.ipynb,  Fig_2b_plot.ipynb, Fig_2c_plot.ipynb <br />
+Figure 3 --> Run Fig_3a_plot.ipynb,  Fig_3b_plot.ipynb, Fig_3c_plot.ipynb <br />
+Figure 4 --> Run Fig_4a_plot.ipynb,  Fig_4b_plot.ipynb, Fig_4c_plot.ipynb <br />
+Figure 5 --> Run Fig_5a_code, Fig_5a_plot.ipynb,  Fig_5b_code, Fig_5b_plot.ipynb <br />
+Figure 6 --> Run Fig_6a_plot.ipynb,  Fig_6b_plot.ipynb <br />
+Figure 7 --> Run Fig_7a_plot.ipynb,  Fig_7b_plot.ipynb <br />
+Figure 8 --> Run fig_8a_code.py, Fig_8a_plot.ipynb,  fig_8b_code.py, Fig_8b_plot.ipynb, fig_8c_code.py, Fig_8c_plot.ipynb, fig_8d_code.py, Fig_8d_plot.ipynb<br />
+Figure 9 --> Run Fig_9a_plot.ipynb,  Fig_9b_plot.ipynb<br />
 
 
 **Add .gitignore (I think the standard python .gitignore by GitHub should work: https://github.com/github/gitignore/blob/main/Python.gitignore)
