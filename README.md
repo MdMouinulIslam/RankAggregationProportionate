@@ -1,36 +1,36 @@
-What does the git contain:
-Contains a requirements.txt file
-Contains a README.md
-Subfolder codes contains implementations of the algorithms. 
-Subfolder graphs contains implementation with preprocessed dataset to reproduce the graphs. 
-Subfolder data contains all the preprocessed datasets. 
+What does the git contain: <br />
+Contains a requirements.txt file<br />
+Contains a README.md<br />
+Subfolder codes contains implementations of the algorithms.<br /> 
+Subfolder graphs contains implementation with preprocessed dataset to reproduce the graphs. <br />
+Subfolder data contains all the preprocessed datasets. <br />
 
 
 
-Implemented algorithms
-Baselines: 
+Implemented algorithms<br />
+Baselines: <br />
 1. FairILP (Caitlin Kuhlman and Elke Rundensteiner. 2020. Rank aggregation algorithms for
-fair consensus. Proceedings of the VLDB Endowment 13, 12 (2020), 2706–2719.)
+fair consensus. Proceedings of the VLDB Endowment 13, 12 (2020), 2706–2719.)<br />
 2. DetConstSort (Sahin Cem Geyik, Stuart Ambler, and Krishnaram Kenthapadi. 2019. Fairnessaware
 ranking in search & recommendation systems with application to linkedin
 talent search. In Proceedings of the 25th ACM SIGKDD International Conference
 on Knowledge Discovery & Data Mining. 2221–2231)
 
-OurSolutions: GrBinaryIPF, ApproxMultiValuedIPF, AlgRAPF, RandAlgRAPF
+OurSolutions: GrBinaryIPF, ApproxMultiValuedIPF, AlgRAPF, RandAlgRAPF<br />
 
-To find the codes for each of the algorithms:
+To find the codes for each of the algorithms:<br />
 Subfolder codes --> Algorithm names
 
 
-How to prepare the dataset: 
+How to prepare the dataset: <br />
 n number of items, m number of ranked lists, distribution of the protected attributes over the items to create proportion.  
 
-How to use the code:
+How to use the code:<br />
 Go to the folder named codes, change the line which contains the dataset path name and run the code.
 
 
-Reproducing the figures:
-Go to subfolder graphs
+Reproducing the figures:<br />
+Go to subfolder graphs<br />
 Figure 1 --> Run Fig_1a_plot.ipynb,  Fig_1b_plot.ipynb, Fig_1c_plot.ipynb <br />
 Figure 2 --> Run Fig_2a_plot.ipynb,  Fig_2b_plot.ipynb, Fig_2c_plot.ipynb <br />
 Figure 3 --> Run Fig_3a_plot.ipynb,  Fig_3b_plot.ipynb, Fig_3c_plot.ipynb <br />
@@ -42,5 +42,5 @@ Figure 8 --> Run fig_8a_code.py, Fig_8a_plot.ipynb,  fig_8b_code.py, Fig_8b_plot
 Figure 9 --> Run Fig_9a_plot.ipynb,  Fig_9b_plot.ipynb<br />
 
 
-**Add .gitignore (I think the standard python .gitignore by GitHub should work: https://github.com/github/gitignore/blob/main/Python.gitignore)
+**Add .gitignore (I think the standard python .gitignore by GitHub should work: https://github.com/github/gitignore/blob/main/Python.gitignore)<br />
 **Remove unnecessary or auto-generated files (e.g., *.bak files)
