@@ -42,5 +42,4 @@ Figure 8 --> Run fig_8a_code.py, Fig_8a_plot.ipynb,  fig_8b_code.py, Fig_8b_plot
 Figure 9 --> Run Fig_9a_plot.ipynb,  Fig_9b_plot.ipynb<br />
 
 
-**Add .gitignore (I think the standard python .gitignore by GitHub should work: https://github.com/github/gitignore/blob/main/Python.gitignore)<br />
-**Remove unnecessary or auto-generated files (e.g., *.bak files)
+
